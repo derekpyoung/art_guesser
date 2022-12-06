@@ -13,3 +13,116 @@
  *= require_tree .
  *= require_self
  */
+.img {
+  position: relative;
+  z-index: -1;
+  border: 2px solid red;
+  height: 100px;
+  /* margin: 3rem; */
+  width: 100%;
+}
+body h1 {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+#btn {
+  display: flex;
+  width: 5em;
+  height: 3em;
+  background-color: white;
+  border-radius: 15px;
+  border: 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: 0 auto;
+}
+#btn:hover{
+  background-color: purple;
+  width: 5.1em;
+  height: 3.1em;
+  border: 0;
+
+}
+/* .cover-one  {
+  position: absolute;
+  z-index: 3; 
+  background: black;
+  height: 60px;  
+  width: 51.2%;
+  height: 33%
+}  */
+
+/* .cover-two  {
+  position: absolute;
+  z-index: 3; 
+  border: 2px solid yellow;
+  background: black;
+  height: 25px;  
+  width: 51.2%;
+  height: 14%;
+  bottom: 38%;
+}  */
+
+#frame {
+  width: 60%;
+  margin: 0 auto;
+
+}
+body {
+  background-color: black;
+}
+
+
+#image{
+  background-image: url(stars.png);
+  width:80px; 
+  height:80px; 
+  margin:150px auto; 
+  border-radius: 50%; 
+  border:1px solid #000;
+}
+.one{
+  background-image: url(stars.png);
+  width:120px !important; 
+  height:120px !important; 
+  margin:150px auto; 
+  border-radius:50% !important; 
+  border:1px solid #000;
+}
+
+.two {
+  background-image: url(stars.png) ;
+  width:180px !important; 
+  height:180px !important; 
+  margin:150px auto; 
+  border-radius:50%; 
+  border:1px solid #000;
+}
+.three {
+  background-image: url(stars.png) ;
+  width:220px !important; 
+  height:220px !important; 
+  margin:150px auto; 
+  border-radius:50%; 
+  border:1px solid #000;
+}
+.four {
+  background-image: url(stars.png) ;
+  width:300px !important; 
+  height:300px !important; 
+  margin:150px auto; 
+  border-radius:50%; 
+  border:1px solid #000;
+}
+.five {
+  background-image: url(stars.png) ;
+  width:360px !important; 
+  height:360px !important; 
+  margin:150px auto;
+  border-radius: 0 !important;
+  border:1px solid #000;
+}

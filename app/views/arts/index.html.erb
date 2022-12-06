@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>art </title>
+</head>
+
+<body>
+
+  <h1 style="color:white">Art Guesser 6000</h1>
+ <button id="btn" >Click</button>
+
+   <div id="frame">
+      <div id="image" class="img" ></div>
+  </div>
+
+<%# 
+  <div class="frame-two">
+      <div class="image two" ></div>
+  </div>
+
+  <div class="frame-three">
+      <div class="image three" ></div>
+  </div>
+
+  <div class="frame-four">
+      <div class="image four" ></div>
+  </div>
+
+  <div class="frame-five">
+      <div class="image five" ></div>
+  </div>
+
+    <div class="frame-six">
+      <div class="image six" ></div>
+  </div> %>
+
+
+</body>
+  
+
+</html>
+<script>
+  // document.getElementById("btn").addEventListener("click", first);
+
+  // function first() {
+  //   document.getElementById("image").className = "one"
+  //   this.removeEventListener("click", first);
+  //   document.onclick = second;
+  //   console.log("shit")
+    
+  // };
+  // function second() {
+  //   document.getElementById("image").className = ""
+  //   document.getElementById("image").className = "two"
+  //   this.removeEventListener("click", second)
+  //   document.onclick = third
+  //   console.log("fuck");
+  // }
+  //  function third() {
+  //   document.getElementById("image").className = ""
+  //   document.getElementById("image").className = "three"
+  //   this.removeEventListener("click", third)
+  //   document.onclick = third
+  //   console.log("fuck");
+  // }
+  var clicked = 0
+  
+  function addEventListener(){
+    document.getElementById('btn').addEventListener("click", next)
+
+  }
+
+
+  function next(){
+    arr = ["one","two","three","four","five"]
+    const image = document.querySelector('.img')
+    changeClass()
+
+  }
+
+  function changeClass(){
+    arr = ["one","two","three","four","five"]
+    image.className = arr[clicked]
+    clicked += 1
+  }
+  
+</script>
